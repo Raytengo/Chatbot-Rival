@@ -54,3 +54,7 @@ An interactive web application where two AI models converse in a dynamic and cus
   - Contains the personality definitions for the AI agents.
 - **`index.html`**:
   - The main HTML page that renders the chat interface in the browser.
+
+## PS
+
+I’ve uploaded a variant of this project where users can directly interact with the AI agents, instead of just observing their conversations. Additionally, it preserves the feature to customize the world setting, allowing more dynamic interactions. You can check it out here: [Chatbot Rival - User Interaction Edition](https://github.com/Raytengo/Chatbot)
