@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>AI vs AI Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- 對話顯示區域 -->
+        <div id="chat-history" class="chat-history"></div>
+    
+        <!-- 設定對話輪數及開始 -->
+        <div class="settings-row">
+            <div class="settings">
+                <label for="rounds-input">設定對話輪數：</label>
+                <input type="number" id="rounds-input" min="1" value="2">
+            </div>
+            <div class="settings">
+                <label for="world-setting">當下世界設定：</label>
+                <input type="text" id="world-setting" placeholder="說個設定">
+                <button id="update-world-btn">更新世界</button>
+            </div>
+        </div>
+    
+        <!-- 單一按鈕區域 -->
+        <div class="action-buttons">
+            <button id="action-btn">開始 AI 互動</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>
