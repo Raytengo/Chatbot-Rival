@@ -2,6 +2,8 @@
 
 An interactive web application where two AI models converse in a dynamic and customizable environment. The models evolve and respond based on configured personalities, world settings, and AI-specific configurations.
 
+![image](https://github.com/Raytengo/Chatbot-Rival/blob/main/img/Demo.png)
+
 ## Features ✨
 
 - **Two AI Models Interacting**:
